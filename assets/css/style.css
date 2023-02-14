@@ -128,7 +128,7 @@ html {
 }
 
 body {
-    background-color: var(--bg-dark-purple);s
+    background-color: var(--bg-dark-purple);
     color: var(--text-white-alpha-60);
     font-size: var(--fontSize-6);
     line-height: 1.8;
