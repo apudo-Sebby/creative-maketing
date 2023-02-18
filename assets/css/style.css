@@ -134,6 +134,8 @@ body {
     line-height: 1.8;
 }
 
+.body.nav-active {overflow: hidden;}
+
 /**************
     BASE STYLES
 **************/
@@ -183,8 +185,8 @@ body {
     color: var(--text-white);
     padding: 1rem 1.875rem;
     border-radius: var(--radius-24);
-    /* opacity: 0; */
-    /* visibility: hidden; */
+    opacity: 0;
+    visibility: hidden;
     transition: 500ms var(--cubic-out);
     z-index: 1;
 }
@@ -205,5 +207,5 @@ body {
     left: 0;
     width: 100%;
     height: 100vh;
-    pointer-events: none;
+    pointer-events: all;
 }
